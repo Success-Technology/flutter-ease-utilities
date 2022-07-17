@@ -17,10 +17,10 @@ Add dependency to your _**Current Flutter Project**_.
 dependencies:
   flutter:
     sdk: flutter
-  flutter-ease-utilities:
-      git:
-        url: git://github.com/Success-Technology/flutter-ease-utilities.git
-        ref: main 
+  flutter_ease_utilities:
+   git:
+      url: https://github.com/Success-Technology/flutter-ease-utilities.git
+      ref: version-1.0 
 ```
 This method alive package integrating from original package source
 
