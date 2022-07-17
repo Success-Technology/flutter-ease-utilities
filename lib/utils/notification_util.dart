@@ -5,6 +5,7 @@ import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_ease_utilities/utils/file_operation_util.dart';
 import 'package:flutter_ease_utilities/utils/phone_system_util.dart';
+export 'package:awesome_notifications/awesome_notifications.dart';
 
 
 class NotificationServices  
@@ -15,16 +16,18 @@ class NotificationServices
 
   static int count =1010;
 
+  // 'resource://drawable/notification_icon'
+
   
 
 
    /// First Initialization of Notification Channel Key and Descriptions
-   static Future<void> initialize({required String channelKey,required String appName,required String channelDescription})async
+   static Future<void> initialize(String iconPath,{required String channelKey,required String appName,required String channelDescription})async
    {
 
 
     bool isInitialized =  await AwesomeNotifications().initialize(
-       'resource://drawable/notification_icon', 
+       iconPath, 
        [            // notification icon 
           NotificationChannel(
               channelGroupKey: appName,
@@ -50,6 +53,7 @@ class NotificationServices
       //Implement Exception Handling
     }
    }
+
      
    
 
