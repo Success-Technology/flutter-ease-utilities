@@ -1,45 +1,57 @@
-<<<<<<< HEAD
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+<img src="https://www.rudtek.com/wp-content/uploads/2019/12/rudtek-services_wordpress-plugin-development.svg" alt="Plug In">
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
+# Flutter Ease Utilities [ Developer Tool ]
+This is a flutter package to provide development cycle fast. This is a complete instruction for applying this package. By using this package , you can save your time and complex impletation of flutter accessibilities.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
+# Category
+- [Notification Utility](#notification-utility)
+- [File Utility](#file-utility)
+- [UI Snippet Utility](#ui-snippet-utility)
+- [Navigation Utility](#navigation-utility)
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+## Setting Up
+- Method - 1
 
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
-```dart
-const like = 'sample';
+Add dependency to your _**Current Flutter Project**_.
 ```
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter-ease-utilities:
+      git:
+        url: git://github.com/Success-Technology/flutter-ease-utilities.git
+        ref: main 
+```
+This method alive package integrating from original package source
 
-## Additional information
+- Method - 2
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
-=======
+\- Firstly, create new folder inside your root directory of _**Current Flutter Project**_ with the this name 'packages'.
 
-This is a kind of tool to support rapid flutter application development. Easy Import , Easy Integrate , Easy Done !
-> Update are preparing , stay tuning 
->>>>>>> a332e973e53f7688282a39e3e685c79865fced8a
+\- Clone this repository to this `packages` folder.
+
+```
+git clone https://github.com/Success-Technology/flutter-ease-utilities.git
+```
+This command will clone a whole copy of flutter-ease-utilities package inside your root project directory.Then , one last thing to do is to add local package integration in your pubspecs.yaml.
+```
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter-ease-utilities:
+      path : ./packages/flutter-ease-utilities
+ ```
+ 
+ **Your are now ready to apply the package**
+
+## Notification Utility 
+This is a kind of utility to make easy notify user with lesser line of codes. `NotificationServices` is a main top-layer abstraction class for all implementations.
+Everything works with static related style.
+
+
+
+
+
+
+
+
