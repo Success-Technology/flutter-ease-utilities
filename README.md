@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- 
 This README describes the package. If you publish this package to pub.dev,
 this README's contents appear on the landing page for your package.
@@ -37,3 +38,8 @@ const like = 'sample';
 TODO: Tell users more about the package: where to find more information, how to 
 contribute to the package, how to file issues, what response they can expect 
 from the package authors, and more.
+=======
+
+This is a kind of tool to support rapid flutter application development. Easy Import , Easy Integrate , Easy Done !
+> Update are preparing , stay tuning 
+>>>>>>> a332e973e53f7688282a39e3e685c79865fced8a
