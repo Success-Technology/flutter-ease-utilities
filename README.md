@@ -20,7 +20,7 @@ dependencies:
   flutter_ease_utilities:
    git:
       url: https://github.com/Success-Technology/flutter-ease-utilities.git
-      ref: version-1.0 
+      ref: main
 ```
 This method alive package integrating from original package source
 
